@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../../fonts/OpenSans-Regular.ttf") format("ttf");
+           
+   }
+
+@font-face {
+    font-family: "BelyDisplay";
+    src: url("../../fonts/BelyDisplayW00-Regular.woff2") format("woff2");
+           
+   }
+.link {
+    text-decoration: none;
+    color:#ED3A5C;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10%;
+    font-family:  "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+}
+.logo a {
+    font-family:  "BelyDisplay";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 60px;
+
+/* identical to box height, or 111% */
+    text-align: center;
+    letter-spacing: 0.15em;
+}
+
+
+.head {
+    display : grid;
+    grid-template-columns: 3fr repeat(23 ,1fr) 3fr;
+}
+
+.menu{
+    grid-column-start: 3;
+    place-self: end center;
+}
+.reseaux{
+    grid-column-start : 21;
+    grid-column-end : 24;
+    justify-items: left;
+    place-self: end stretch;
+}
+
+
+.menuItem a:hover{
+    font-size : 20px;
+}

@@ -1,0 +1,7 @@
+.drawBur img {
+    position : absolute;
+    width : 100%;
+}
+.drawBur {
+    position : relative;
+}

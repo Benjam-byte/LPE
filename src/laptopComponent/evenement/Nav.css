@@ -1,0 +1,41 @@
+.nav {
+    display:grid;
+    grid-template-columns: 0.2fr 2fr 0.2fr;
+    grid-template-rows: 1fr;
+}
+
+.img1 {
+    grid-row : 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.img2{
+    grid-row : 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+.titleNav{
+    align-self: center;
+    grid-row : 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+
+
+.nav h1{
+margin : 0;
+text-align: center;
+font-family: Encre;
+font-style: normal;
+font-weight: normal;
+font-size: 62px;
+line-height: 50px;
+}
+@font-face {
+    font-family: "Encre";
+    src: url("../../fonts/Encre-Regular.woff2") format("woff2");
+           
+   }

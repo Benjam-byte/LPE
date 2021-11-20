@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Encre";
+    src: url("../../fonts/Encre-Regular.woff2") format("woff2");
+           
+   }
+
+   @font-face {
+    font-family: "OpenSans";
+    src: url("../../fonts/OpenSans-Regular.ttf") format("ttf");
+           
+   }
+
+.titreEvent {
+    font-family: Encre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 28px;
+
+/* or 87% */
+    letter-spacing: 0em;
+    text-transform: uppercase;
+
+    color: #2A284F;
+}
+
+
+
+.infoEvent {
+    font-family: OpenSans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0em;
+padding-bottom: 0px;
+margin-bottom:0%;
+color: #2A284F;
+
+}
+
+
+
+.containerPerso2{
+    text-align: center;
+}

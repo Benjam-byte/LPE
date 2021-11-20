@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Encre";
+    src: url("../../fonts/Encre-Regular.woff2") format("woff2");
+           
+   }
+
+   @font-face {
+    font-family: "BelyDisplay";
+    src: url("../../fonts/BelyDisplayW00-Regular.woff2") format("woff2");
+           
+   }
+
+   @font-face {
+    font-family: "OpenSans";
+    src: url("../../fonts/OpenSans-Regular.ttf") format("ttf");
+           
+   }
+ 
+
+.Event{
+    display : grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 0.2fr 0.2fr 0.2fr; 
+    grid-template-areas: 
+    "img"
+    "p1"
+    "p2"
+    "p3";
+}
+
+.Event p{
+    margin : 0 !important;
+  padding : 0 !important;
+}
+
+.img{
+    grid-area : img;
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.p1{
+    justify-self: center;
+    grid-area : p1;
+    font-family: Encre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+    color: #2A284F;
+}
+
+.p2{
+    justify-self: center;
+    grid-area : p2;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #2A284F;
+}
+
+.p3{
+    justify-self: center;
+    grid-area : p3;
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #2A284F;
+}

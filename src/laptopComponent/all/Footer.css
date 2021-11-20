@@ -1,0 +1,25 @@
+.Footer {
+    display : grid;
+    grid-template-columns: 3fr repeat(24 ,1fr) 3fr;
+}
+
+.Footer p {
+    margin : 0 !important;
+    padding : 0 !important;
+}
+
+.F-A{
+    grid-column-start: 3;
+    grid-column-end : 7;
+    align-self: end;
+}
+.F-B{
+    grid-column-start: 13;
+    grid-column-end: 16;
+    align-self: center;
+}
+.F-C{
+    grid-column-start: 20;
+    grid-column-end: 25;
+    align-self: start;
+}

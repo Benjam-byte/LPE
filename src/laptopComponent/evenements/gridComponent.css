@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: "BelyDisplay";
+    src: url("../../fonts/BelyDisplayW00-Regular.woff2") format("woff2");
+           
+   }
+
+.link2{
+    margin :0;
+    padding :0;
+    width : auto;
+    text-decoration: none;
+}
+
+.title{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    font-family:  "BelyDisplay";
+    font-style: normal;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0em;
+    color: #ED3A5C;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-bottom:5%;
+    margin-top : 6%;
+}
+
+.containerPerso{
+    display:grid;
+    grid-template-columns: 3fr repeat(23 ,1fr) 3fr;
+    grid-template-rows: 0.8fr repeat(7, 1fr) 0.5fr 0.1fr 2fr;
+    margin-bottom: 2%;
+    position:relative;
+}
+
+.item1 {
+    grid-column-start:15 ;
+    grid-column-end:24;
+    grid-row: 3;
+
+}
+.item2{
+    grid-column-start:3 ;
+    grid-column-end:12;
+    grid-row: 4;
+}
+.item3{
+    grid-column-start:15 ;
+    grid-column-end:24;
+    grid-row: 5;
+}
+.item4{
+    grid-column-start:3 ;
+    grid-column-end:12;
+    grid-row: 6;
+}
+.item5{
+    grid-column-start:15 ;
+    grid-column-end:24;
+    grid-row: 7;
+}
+.item6{
+    grid-column-start:3;
+    grid-column-end:12;
+    grid-row: 8;
+}
+.item7 {
+    grid-column-start:10;
+    grid-column-end:15;
+    grid-row: 11;
+}

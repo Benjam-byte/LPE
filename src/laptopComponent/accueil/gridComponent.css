@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "BelyDisplay";
+    src: url("../../fonts/BelyDisplayW00-Regular.woff2") format("woff2");
+}
+
+.gridA{
+    display : grid;
+    grid-template-columns: 3fr repeat(23 ,1fr) 3fr;
+    grid-template-rows : 6.5fr 0.4fr 0.5fr 2fr 1fr;
+}
+
+.drAc {
+    z-index: -1;
+    grid-row : 1;
+    grid-column-start: 1;
+    grid-column-end: 28;
+}
+
+.titleA{
+    margin : 0 !important;
+    padding : 0 !important;
+    text-align: center;
+    grid-row : 2;
+    grid-column-start: 11;
+    grid-column-end: 15;
+    font-family:  "BelyDisplay";
+    font-style: normal;
+    font-size: 54px;
+    line-height: 60px;
+    color: #2A284F;
+}
+
+.item-A{
+    grid-column-start: 3;
+    grid-column-end : 8;
+    grid-row : 4;
+
+}
+
+.item-B{
+    grid-column-start: 11;
+    grid-column-end : 16;
+    grid-row : 4;
+
+}
+
+.item-C{
+    grid-column-start: 19;
+    grid-column-end : 24;
+    grid-row : 4;
+
+}
